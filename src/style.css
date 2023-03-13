@@ -1,0 +1,94 @@
+.container {
+    height: 600px;
+    width: 400px;
+    margin: 0 auto;
+    background-color: steelblue;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 550;
+    color: #fdfefe;
+    letter-spacing: 1px;
+    padding: 16px;
+}
+
+form {
+    display: flex;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 100%;
+    margin: 20px 0;
+}
+
+input[type="text"] {
+    width: 85%;
+    outline: none;
+    border: 1px solid #ccc;
+    font-size: 17px;
+    border-radius: 5px;
+    padding-left: 15px;
+    margin-left: 10px;
+}
+
+button[type="submit"] {
+    width: 60px;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: hsl(0deg 0% 13%);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-left: 5px;
+    font-size: 22px;
+    font-weight: 300;
+    opacity: 0.6;
+    margin-right: 10px;
+
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    position: relative;
+    list-style: none;
+    width: 340px;
+    height: 60px;
+    background: #031956;
+    color: #a8b2c4;
+    padding: 0 15px;
+    line-height: 60px;
+    border-radius: 20px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    cursor: default;
+    overflow: hidden;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+}
+
+li .todo-text {
+    flex-grow: 1;
+    font-size: 16px;
+}
+
+li button {
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    background: #fe05db;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 6px 15px;
+    opacity: 0.6;
+}
